@@ -1,4 +1,4 @@
-str1='m5h4y8'
+str1='m5h4y8c6'
 output=' '
 for i in str1:
     if i.isalpha( ):
