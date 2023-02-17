@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function myfile(a){
+            var value=a.value;
+            document.getElementById("demo").innerHTML=value;
+            
+        }
+
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1> What is your name? </h1> <br>
+    <input type="text" onkeyup="myfile( this )"><br>
+    <p> My name is <span id="demo" > </span></p>
+
+    
+</body>
+</html>

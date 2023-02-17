@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var allimages=["flower.jpg","image.jpg","nature.jpg"];
+        var i=0;
+        function changeimage(){
+            var image=document.first.image;
+            i=i+1;
+            if(i==allimages.length){
+                i=0;
+            }
+            image.src=allimages[i];
+        }
+        setInterval(changeimage,2000);
+
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <form action=""name="first">
+        <img src="flower.jpg" alt="" name="image" height="500px" width="400px" id="demo">  
+    
+    
+    </form>
+    
+</body>
+</html>
